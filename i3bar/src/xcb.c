@@ -6,6 +6,7 @@
  *
  * xcb.c: Communicating with X
  *
+ * 2018 - extended by Samuel Brown
  */
 #include "common.h"
 
@@ -35,6 +36,11 @@
 #endif
 
 #include "libi3.h"
+
+/* Used to start and kill "binclk" in the unhide_bars and hide_bars functions
+respectively */
+const char * START_CLOCK = "binclk &";
+const char * KILL_CLOCK = "pkill -9 binclk";
 
 /** This is the equivalent of XC_left_ptr. I’m not sure why xcb doesn’t have a
  * constant for that. */
@@ -334,6 +340,7 @@ static void draw_statusline(i3_output *output, uint32_t clip_left, bool use_focu
  *
  */
 static void hide_bars(void) {
+  system(KILL_CLOCK);
     if ((config.hide_on_modifier == M_DOCK) || (config.hidden_state == S_SHOW && config.hide_on_modifier == M_HIDE)) {
         return;
     }
@@ -353,6 +360,7 @@ static void hide_bars(void) {
  *
  */
 static void unhide_bars(void) {
+  system(START_CLOCK);
     if (config.hide_on_modifier != M_HIDE) {
         return;
     }
