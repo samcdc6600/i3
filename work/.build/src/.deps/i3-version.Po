@@ -1,0 +1,4 @@
+src/i3-version.o: \
+  /usr/ports/x11-wm/i3/work/i3-4.17/../i3-4.17/src/version.c config.h
+
+config.h:

@@ -1,0 +1,77 @@
+i3-input/i3_input-keysym2ucs.o: \
+  /usr/ports/x11-wm/i3/work/i3-4.17/../i3-4.17/i3-input/keysym2ucs.c \
+  /usr/local/include/xcb/xcb.h /usr/include/sys/types.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/stdint.h \
+  /usr/include/machine/_stdint.h /usr/include/x86/_stdint.h \
+  /usr/include/sys/uio.h /usr/include/sys/_iovec.h \
+  /usr/include/sys/_uio.h /usr/include/pthread.h /usr/include/sched.h \
+  /usr/include/time.h /usr/include/sys/_null.h \
+  /usr/include/xlocale/_time.h /usr/local/include/xcb/xproto.h \
+  /usr/ports/x11-wm/i3/work/i3-4.17/../i3-4.17/i3-input/keysym2ucs.h
+
+/usr/local/include/xcb/xcb.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/machine/endian.h:
+
+/usr/include/x86/endian.h:
+
+/usr/include/sys/_types.h:
+
+/usr/include/machine/_types.h:
+
+/usr/include/x86/_types.h:
+
+/usr/include/machine/_limits.h:
+
+/usr/include/x86/_limits.h:
+
+/usr/include/sys/_pthreadtypes.h:
+
+/usr/include/sys/_stdint.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/sys/_sigset.h:
+
+/usr/include/sys/_timeval.h:
+
+/usr/include/sys/timespec.h:
+
+/usr/include/sys/_timespec.h:
+
+/usr/include/stdint.h:
+
+/usr/include/machine/_stdint.h:
+
+/usr/include/x86/_stdint.h:
+
+/usr/include/sys/uio.h:
+
+/usr/include/sys/_iovec.h:
+
+/usr/include/sys/_uio.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/time.h:
+
+/usr/include/sys/_null.h:
+
+/usr/include/xlocale/_time.h:
+
+/usr/local/include/xcb/xproto.h:
+
+/usr/ports/x11-wm/i3/work/i3-4.17/../i3-4.17/i3-input/keysym2ucs.h:
